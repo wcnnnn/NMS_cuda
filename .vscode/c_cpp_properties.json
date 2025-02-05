@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "name": "Win64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/include",
+        "D:/anaconda/envs/pytorch/Lib/site-packages/torch/include",
+        "D:/anaconda/envs/pytorch/Lib/site-packages/torch/include/torch/csrc/api/include",
+        "D:/anaconda/envs/pytorch/Lib/site-packages/torch/include/THC",
+        "D:/anaconda/envs/pytorch/include",
+        "D:/anaconda/envs/pytorch/Lib/site-packages/numpy/_core/include"
+      ],
+      "defines": [
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE",
+        "__CUDACC__",
+        "TORCH_EXTENSION_NAME=dpf_cuda",
+        "TORCH_API_INCLUDE_EXTENSION_H"
+      ],
+      "windowsSdkVersion": "10.0.18362.0",
+      "compilerPath": "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.4/bin/nvcc.exe",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-msvc-x64",
+      "configurationProvider": "ms-vscode.cmake-tools"
+    }
+  ],
+  "version": 4
+}
