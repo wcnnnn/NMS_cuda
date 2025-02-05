@@ -2,7 +2,7 @@
 import numpy as np
 import time
 import torch
-import nms_cuda  # 我们的CUDA实现
+import nms_cuda  
 
 # Python版本的NMS实现
 def nms_python(boxes, scores, iou_threshold):
